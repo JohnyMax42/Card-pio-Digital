@@ -13,12 +13,15 @@
     --minhaFonte: "Playwrite PL", cursive;
 }
 
-body{
+  body{
     background-image: url(/imagens/bg.png);
     /* descomente para aplicar uma imagem sem repetição: */
     /* background-repeat: no-repeat;
     background-size: cover; */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
 header{
@@ -60,16 +63,19 @@ h2{
     width: 850px;
     margin: auto;
     border-radius: var(--arredondamentoBordas);
+    display: flex;
+    align-items: center;
 }
 
-.boxImagem, .boxTexto{
+ /* .boxImagem, .boxTexto{
     display: inline-block;
     vertical-align: middle;
-}
+    
+} */
 
 .boxTexto{
     width: 400px;
-    text-align: start;
+     text-align: start;
 }
 
 h1, h2, h3, button{

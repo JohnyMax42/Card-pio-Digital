@@ -14,7 +14,7 @@
 }
 
   body{
-    background-image: url(imagens\bg.png);
+    background-image: url(imagens/bg.png);
     /* descomente para aplicar uma imagem sem repetição: */
     /* background-repeat: no-repeat;
     background-size: cover; */

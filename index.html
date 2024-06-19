@@ -24,25 +24,40 @@
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
+          <h2>Meu Carrinho</h2>
           <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-          </div>
-          <div class="dropdown mt-3">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <!-- cartão horizontal - produto hamburguer -->
+            <div class="card" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagens\burger01.png" class="img-fluid rounded-start" alt="Clássico Angus Burguer">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body text-start">
+                    <h5 class="card-title text-dark fs-6">
+                      Clássico Angus Burguer</h5>
+                    <h6 class="card-text text-dark fs-6">Total: R$22,50</h6>
+                    <div class="d-flex">
+                      <button class="btn btn-warning btn-sm">-</button>
+                      <input type="number" value="1" class="w-75 mx-3 text-dark" >
+                      <button class="btn btn-warning btn-sm">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- cartão horizontal - produto acompanhamento -->
+            <!-- cartão horizontal - produto bebida -->
+             <!-- total -->
           </div>
         </div>
       </div>
 
-    <main>
+    <main class="my-5">
+
         <h1>cardápio digital</h1>
-        <section id="hamburguer">
+
+        <section id="hamburguer" class="my-5">
             <h2>HAMBURGUERES</h2>
 
             <div class="boxProduto">
@@ -81,6 +96,66 @@
             <button>Pedir</button>
             </div>
         </div>
+
+        </section>
+
+        <section id="acompanhamento" class="my-5">
+          <h2>ACOMPANHAMENTOS</h2>
+
+          <div class="boxProduto">
+              <div class="boxImagem">
+                  <img src="imagens\acomp01.png" alt="Fritas" class="imagemProduto">
+              </div>
+              <div class="boxTexto">
+              <h3>Fritas - <strong>R$15,00</strong></h3>
+              <p>Nossas batatas fritas são o acompanhamento perfeito para qualquer refeição! Cortadas em palitos e fritas até ficarem douradas e crocantes por fora, e macias por dentro, elas são irresistíveis em cada mordida.</p>
+              <button>Pedir</button>
+              </div>
+          </div>
+
+          <br>
+
+          <div class="boxProduto">
+            <div class="boxImagem">
+                <img src="imagens\acomp02.png" alt="Rings" class="imagemProduto">
+            </div>
+            <div class="boxTexto">
+            <h3>Rings - <strong>R$20,00</strong></h3>
+            <p>O nosso Hambúrguer Gourmet, preparado com um suculento hambúrguer de carne nobre, queijo derretido, cebola caramelizada e baccon. Uma escolha irresistível!</p>
+            <button>Pedir</button>
+            </div>
+        </div>
+      </div>
+
+        </section>
+
+        <section id="bebida" class="my-5">
+          <h2>BEBIDAS</h2>
+
+          <div class="boxProduto">
+              <div class="boxImagem">
+                  <img src="imagens\bebida01.png" alt="Coca-Cola" class="imagemProduto">
+              </div>
+              <div class="boxTexto">
+              <h3>Coca-Cola - <strong>R$5,00</strong></h3>
+              <p>Refresque-se com a clássica Coca-Cola gelada, uma bebida que encanta paladares há décadas. Com seu sabor único e inconfundível para acompanhar seu hambúrguer ou batatas fritas.</p>
+              <button>Pedir</button>
+              </div>
+          </div>
+
+          <br>
+
+          <div class="boxProduto">
+            <div class="boxImagem">
+                <img src="imagens\bebida02.png" alt="Sprite" class="imagemProduto">
+            </div>
+            <div class="boxTexto">
+            <h3>Sprite - <strong>R$5,00</strong></h3>
+            <p>Revitalize seus sentidos com a refrescante Sprite, uma bebida cítrica e efervescente que desperta os sentidos e eleva o seu ânimo para acompanhar seu hambúrguer ou batatas fritas.</p>
+            <button>Pedir</button>
+            </div>
+        </div>
+      </div>
 
         </section>
 

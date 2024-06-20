@@ -31,7 +31,8 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    width: 850px;
+    margin: auto;
     padding: 15px;
 }
 
@@ -63,7 +64,7 @@ h2{
 
 .boxProduto{
     background-color: rgba(37, 37, 37, 0.8);
-    width: 80%;
+    width: 850px;
     margin: auto;
     border-radius: var(--arredondamentoBordas);
     display: flex;
@@ -77,8 +78,8 @@ h2{
 } */
 
 .boxTexto{
-    width: 80%;
-     text-align: start;
+    width: 400px;
+    text-align: start;
 }
 
 h1, h2, h3, button{
